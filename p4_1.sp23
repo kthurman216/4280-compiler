@@ -1,0 +1,3 @@
+open 
+  print < 1 ;
+close

@@ -1,0 +1,20 @@
+open
+  data _x : 1 ;
+  read > _x ;
+  open
+    data _x : 1 ;
+    read > _x ;
+    open
+      data _x : 1 ;
+      read > _x ;
+	 open
+	    data _x : 1 ;
+	    read > _x ;
+	    print < _x ;
+	 close
+      print < _x ;
+    close
+    print < _x ;
+  close
+  print < _x ;
+close

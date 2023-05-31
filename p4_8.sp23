@@ -1,0 +1,7 @@
+open
+  data _x : 1 ;
+  read > _x ;
+  iff [ _x >~ 0 ]
+    iff [ _x < 10 ] 
+      print < _x ;
+close

@@ -1,0 +1,14 @@
+open
+  data _x : 1 _y : 1 ;
+  read > _x ;
+  iter [ _x > 0 ]
+  open
+    _y = _x ;
+    iter [ _y > 0 ] 
+    open
+      print < _y ;
+      _y = _y - 1 ;
+    close
+    _x = _x - 2 ;
+  close
+close

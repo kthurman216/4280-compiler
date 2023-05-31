@@ -1,0 +1,8 @@
+open
+  data _x : 1 
+  _y : 2 ;
+  read > _x ;
+  read > _y ;
+  print < _y ;
+  print < _x ;
+close

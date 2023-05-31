@@ -1,0 +1,7 @@
+open
+  data _x : 1 ;
+  read > _x ;
+  open
+    print < _x / 1 + 1 ;
+  close
+close
